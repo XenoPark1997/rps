@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import './App.css';
-import img_style from './Component/assets/icons/rock.svg';
 class Rps extends Component {
   render(){
     return (
@@ -14,6 +13,7 @@ class Rps extends Component {
                 <label className="Top_label" value="AI" /><br />
                 <label className="Top_label" value="0" />
               </div>
+              <label> meow </label>
               <div className="Item_box">
                 <button className="rock_button" name="rock" value="">
                   <img className="img_style" src="/Component/assets/icons/rock.svg" alt="meteor" />
@@ -21,6 +21,7 @@ class Rps extends Component {
               </div>
             </div>
         </div>
+        
     );
   }
 }
