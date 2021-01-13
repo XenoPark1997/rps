@@ -29,6 +29,25 @@ body{
     margin-left: 40px;
     text-align: center;
 }
+.scoreboard {
+    position: absolute;
+    margin:52px 0 0 0;
+    left: 39%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+  color: #40689A;
+}
+.Indicator{
+    display: block;
+    position: absolute;
+    left:27%;
+    margin-top: 145px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color:#ACAFC0;
+}
 .Opponent_box{
     position: absolute;
     right:0%;
@@ -40,34 +59,86 @@ body{
     margin-right: 40px;
     text-align: center;
 }
+
 .Item_box{
-    width: 100% auto;
-    height: 100% auto;
-    position: relative;
-    border: 1px solid white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
 }
+
 .Top_label{
+    font-family: 'Poppins', sans-serif;
     font-size: 24px;
     font-weight: bold;
     color: #40689A;
 }
 .rock_button{
-  display: block;
-  position: absolute;
-  border-style: none;
-  border-radius: 5px;
-  width: 100px;
-  height: 200px;
-  margin-right: 15px;
-  margin-top: 20px;
-  padding: 5px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 22px;
-  background-color: #1A182D;
-  color: #ACAFC0;
+    display: block;
+    position: absolute;
+    left:17%;
+    bottom:20%;
+    border-style: none;
+    border-radius: 5px;
+    width: 20%;
+    height: 35%;
+    margin-right: 15px;
+    margin-top: 20px;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    background-color: #1A182D;
+    color: #ACAFC0;
 }
-.img_style {
-  width:200px;
-  height:200px;
-  margin:5px;
+.paper_button{
+    display: block;
+    position: absolute;
+    left:40%;
+    bottom:20%;
+    border-style: none;
+    border-radius: 5px;
+    width: 20%;
+    height: 35%;
+    margin-right: 15px;
+    margin-top: 20px;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    background-color: #1A182D;
+    color: #ACAFC0;
+}
+.scissor_button{
+    display: block;
+    position: absolute;
+    left:63%;
+    bottom:20%;
+    border-style: none;
+    border-radius: 5px;
+    width: 20%;
+    height: 35%;
+    margin-right: 15px;
+    margin-top: 20px;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    background-color: #1A182D;
+    color: #ACAFC0;
+}
+.proceed{
+    display: block;
+    position: absolute;
+    left:29%;
+    bottom:5%;
+    width:40%;
+    padding:10px;
+    height:auto;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #40689A;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+.img_style{
+    width:65%;
+    margin:5px;
 }
