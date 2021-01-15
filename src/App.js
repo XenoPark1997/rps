@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import './App.css';
-import rock from './Component/assets/icons/rock.svg';
-import paper from './Component/assets/icons/paper.svg';
-import scissor from './Component/assets/icons/scissors.svg';
+import rock from './assets/icons/rock.svg';
+import paper from './assets/icons/paper.svg';
+import scissor from './assets/icons/scissors.svg';
 
 class Rps extends Component {
   render(){
