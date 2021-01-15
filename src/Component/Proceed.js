@@ -1,5 +1,7 @@
 import react from 'react';
 
-function proceed(){
+function Proceed(){
     return
 }
+
+export default Proceed

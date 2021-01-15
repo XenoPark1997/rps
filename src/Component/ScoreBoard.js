@@ -1,5 +1,7 @@
 import react from 'react';
 
-function ItemText() {
-    return
+function ScoreBoard() {
+    return <label>SCOREBOARD</label>
 }
+
+export default ScoreBoard

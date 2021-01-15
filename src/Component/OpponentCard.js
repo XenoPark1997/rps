@@ -1,5 +1,7 @@
 import react from 'react';
 
-function OppenentCard() {
+function OpponentCard() {
     return
 }
+
+export default OpponentCard
